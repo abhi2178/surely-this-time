@@ -10,10 +10,80 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .dynamicContainer{
-    height: 30em;
+    height: 28em;
     width: 45em;
     /* background-color: black; */
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.first{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+#first-one{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#a111{
+    background-color: #D68FD6;
+}
+#a112{
+    background-color: #DAC7E4;
+}
+#first-sec{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#a121{
+    background-color: #4F0147;
+}
+#a122{
+    background-color: #92A7A2;
+}
+#a2{
+    background-color: #464F51;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#a21{
+    width: 14em;
+    height: 14em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #2BA28C;
+}
+#a211{
+    width: 8em;
+    height: 8em;
+    background-color: #0FF4C6;
+}
+.name{
+    margin-top: 1em;
+    width: 45em;
+    display: inline-flex;
+}
+.name a{
+    text-decoration: none;
+}
+
+.circle{
+    border-radius: 50%;
+}
+.rounded{
+    border-radius: 25%;
+}
+.roundedTopRight{
+    border-top-right-radius: 50%;
+}
+.roundedBottomLeft{
+    border-bottom-left-radius: 80%;
+}
+.roundedBottomRight{
+    border-bottom-right-radius: 50%;
 }
