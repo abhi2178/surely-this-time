@@ -1,1 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
 
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0dcd2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dynamicContainer{
+    height: 30em;
+    width: 45em;
+    /* background-color: black; */
+}
